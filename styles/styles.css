@@ -11,6 +11,10 @@ body {
   display: flex;
 }
 
+.heading {
+  text-decoration: underline 2px#7f5af0;
+}
+
 .links * {
   margin: 0px auto;
   text-align: center;
