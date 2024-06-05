@@ -3,8 +3,8 @@
 /* host font locally */
 
 * {
-  font-family: 'Roboto Mono';
-  /* add fallback font */
+  font-family: 'Roboto Mono', mono;
+  text-decoration: none;
   color: #e5e5e5;
 }
 
@@ -12,11 +12,44 @@ body {
   background-color: #202021;
 }
 
-a {
-  text-decoration: none;
+.background {
+  border-radius: 25px;
+  background: #191919;
+  padding: 25px;
+  margin: auto;
+  width: 400px;
+  height: auto;
+}
+
+h2 {
+  text-decoration: underline 2px #7f5af0;
+  margin: 0px;
+}
+
+h3 {
+  margin: 10px auto;
+}
+
+.button a {
   color: #7f5af0;
 }
 
-a:hover {
+.button a:hover {
   text-decoration: underline;
+}
+
+.bubble {
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: groove;
+  border-color: #6647c2;
+  background: #7f5af038;
+  padding: 3px 5px;
+  margin-bottom: 7px;
+  font-size: medium;
+  display: inline-block;
+}
+
+#shid {
+  opacity: 20%;
 }
