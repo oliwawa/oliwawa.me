@@ -27,11 +27,13 @@ body {
   height: auto;
 }
 
-h2 {
+header * {
   font-family: 'Jacquard 12';
   font-size: 35px;
   color: black;
   margin: 0px;
+  display: inline-block;
+  width: auto;
 }
 
 h3 {
