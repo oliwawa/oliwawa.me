@@ -1,20 +1,26 @@
 /* Roboto Mono */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-/* host font locally */
+/* Jacquard 12 */
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');/* host font locally */
 
 * {
-  font-family: 'Roboto Mono', mono;
+  font-family: 'Roboto Mono', mono; 
   text-decoration: none;
-  color: #e5e5e5;
+  /* color: #e5e5e5; */
+  color: black;
 }
 
 body {
-  background-color: #202021;
+  /* background-color: #202021; */
+  background: white;
 }
 
-.background {
-  border-radius: 25px;
-  background: #191919;
+.card {
+  /* border-radius: 25px;  */
+  /* background: #191919;  */
+  background: white;
+  border: 1px solid black;
+  border-top: 20px solid black;
   padding: 25px;
   margin: auto;
   width: 400px;
@@ -22,7 +28,9 @@ body {
 }
 
 h2 {
-  text-decoration: underline 2px #7f5af0;
+  font-family: 'Jacquard 12';
+  font-size: 35px;
+  color: black;
   margin: 0px;
 }
 
@@ -31,19 +39,27 @@ h3 {
 }
 
 .button a {
-  color: #7f5af0;
+  /* color: #7f5af0; */
+  color: black;
+  text-shadow: black 1px 1px;
 }
 
 .button a:hover {
   text-decoration: underline;
 }
 
+#discord a:hover {
+  text-decoration: none;
+}
+
 .bubble {
   border-radius: 10px;
   border-width: 2px;
   border-style: groove;
-  border-color: #6647c2;
-  background: #7f5af038;
+  /* border-color: #6647c2; */
+  border-color: black;
+  /* background: #7f5af038; */
+  background: rgb(223, 222, 222);
   padding: 3px 5px;
   margin-bottom: 7px;
   font-size: medium;
