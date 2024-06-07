@@ -4,9 +4,14 @@
   src: url(../assets/fonts/Jacquard12-Regular.ttf) format("truetype");
 }
 
+/* Fira Mono Bold */
+@font-face {
+  font-family: "Fira Mono Bold";
+  src: url(../assets/fonts/FiraMono-Bold.ttf) format("truetype");
+}
+
 * {
-  font-family: mono;
-  font-weight: bold; 
+  font-family: "Fira Mono Bold" ,mono;
   text-decoration: none;
   color: black;
 }
