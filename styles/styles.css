@@ -4,6 +4,12 @@
   src: url(../assets/fonts/Jacquard12-Regular.ttf) format("truetype");
 }
 
+/* Fira Mono Medium */
+@font-face {
+  font-family: "Fira Mono Medium";
+  src: url(../assets/fonts/FiraMono-Medium.ttf) format("truetype");
+}
+
 /* Fira Mono Bold */
 @font-face {
   font-family: "Fira Mono Bold";
@@ -35,6 +41,7 @@ header * {
 }
 
 h3 {
+  font-family: 'Fira Mono Medium', mono;
   margin: 10px auto;
 }
 
