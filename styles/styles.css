@@ -17,6 +17,7 @@
 }
 
 * {
+  box-sizing: border-box;
   font-family: "Fira Mono Bold" ,mono;
   text-decoration: none;
   color: black;
@@ -26,8 +27,8 @@
   border: 1px solid black;
   border-top: 20px solid black;
   padding: 10px 25px 25px 25px;
-  margin: auto;
-  width: 280px;
+  margin: 0px auto;
+  width: 335px;
   height: auto;
 }
 
@@ -36,7 +37,7 @@ header * {
   font-size: 35px;
   color: black;
   margin: 0px;
-  display: inline-block;
+  display: inline;
   width: auto;
 }
 
