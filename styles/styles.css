@@ -16,26 +16,44 @@
   src: url(../assets/fonts/FiraMono-Bold.ttf) format("truetype");
 }
 
+:root {
+  --text:#434343;
+  --background:#fbfbfe;
+  --primary:#83A2FF;
+  --secondary:#FFD28F;
+  --accent:#B4BDFF;
+}
+
 * {
   box-sizing: border-box;
-  font-family: "Fira Mono Bold" ,mono;
+  font-family: "Fira Mono Bold", mono;
   text-decoration: none;
-  color: black;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--background);
 }
 
 .card {
-  border: 1px solid black;
-  border-top: 20px solid black;
+  border: 2px solid var(--accent);
+  border-radius: 10px;
   padding: 10px 25px 25px 25px;
-  margin: 0px auto;
   width: 335px;
   height: auto;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 header * {
   font-family: "Jacquard 12";
   font-size: 35px;
-  color: black;
+  color: var(--primary);
   margin: 0px;
   display: inline;
   width: auto;
@@ -48,6 +66,7 @@ h3 {
 
 .button a:hover {
   text-decoration: 2px underline;
+  /* color: var(--secondary); */
 }
 
 #discord a:hover {
