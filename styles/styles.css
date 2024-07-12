@@ -17,11 +17,11 @@
 }
 
 :root {
-  --text:#434343;
-  --background:#fbfbfe;
-  --primary:#83A2FF;
-  --secondary:#FFD28F;
-  --accent:#B4BDFF;
+  --text: #434343;
+  --background: #fbfbfe;
+  --primary: #83a2ff;
+  --secondary: #ffd28f;
+  --accent: #b4bdff;
 }
 
 * {
@@ -39,7 +39,7 @@ body {
   border: 2px solid var(--accent);
   border-radius: 10px;
   padding: 10px 25px 25px 25px;
-  width: 335px;
+  width: 325px;
   height: auto;
   margin: 0;
   position: absolute;
@@ -47,7 +47,9 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 header * {
@@ -60,7 +62,7 @@ header * {
 }
 
 h3 {
-  font-family: 'Fira Mono Medium', mono;
+  font-family: "Fira Mono Medium", mono;
   margin: 10px auto;
 }
 
